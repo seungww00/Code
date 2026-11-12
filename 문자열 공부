@@ -1,0 +1,20 @@
+#include <studio.h>
+int main()
+{
+char ch;
+int num;
+float f_num;
+double d_num;
+
+printf("문자 하나를 입력하세요: ");
+scanf("%c", &ch);
+printf("정수 하나를 입력하세요: ");
+scanf("%d", &num);
+printf("float형 실수 하나를 입력하세요: ");
+scanf("%f", &num);
+printf("double형 실수 하나를 입력하세요: ");
+scanf("%lf", &num);
+printf("%c %d %.1f %lf\n", ch, num, f_num, d_num);
+
+return 0;
+}
